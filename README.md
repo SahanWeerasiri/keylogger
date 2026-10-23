@@ -2,7 +2,7 @@
 
 A minimal Linux keystroke recorder built on Python and `evdev`, supervised by
 systemd. It reads directly from the keyboard device file, so it keeps recording
-across display-server changes and during the lock screen.
+across display-server changes and **during the lock screen.**
 
 > **Scope:** This project captures keystrokes at the device level for local,
 > authorized use (learning, self-monitoring, lab forensics). It does **not**
